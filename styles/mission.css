@@ -50,6 +50,7 @@ main section{
 .discount{
     width: 800px;
     height: 800px;
+    margin-left:  200px;
 }
 .discount-content {
     /* display: flex;
@@ -80,6 +81,7 @@ main section{
     align-items: center;
     gap: 180px;
     padding: 100px;
+    margin-top: 250px;
  }
  .party-content p{
     font-size: 18px;
@@ -237,4 +239,37 @@ main section{
    height: 70px;
    border-radius: 0px 20px 20px 0px;
    font-size: 20px;
+}
+footer{
+   background-color: black;
+   color: #FFFFFF;
+   padding: 100px 150px;
+}
+ footer hr{
+   color: darkgrey;
+}
+.foot{
+   display: flex;
+   justify-content: space-evenly;
+   gap: 550px;
+}
+.place{
+   font-size: 24px;
+   max-width: 370px;
+}
+.foot-contact{
+   max-width: 250px;
+}
+.foot-img{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+   padding: 40px 0px;
+}
+.foot-context{
+   display: flex;
+   justify-content: space-between;
+   padding-top: 30px;
+   font-size: 24px;
 }
