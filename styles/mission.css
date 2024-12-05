@@ -20,7 +20,7 @@ main section{
     width: 1320px;
     height: 600px;
     border-radius: 16px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .banner{
     background-image: url('../resources/Banner\ Image.png');
@@ -120,10 +120,11 @@ main section{
     justify-content: space-between;
     align-items: center;
     padding: 60px;
+    margin-top: -100px;
     /* gap: 20px; */
  }
  .celebration-content{
-    max-width: 280px;
+    max-width: 330px;
  }
  .celebration-content h4{
     color: #FF0000; 
@@ -133,6 +134,7 @@ main section{
    font-size: 48px;
    color: #070211;
    margin-top: -2px;
+   font-weight: bold;
  }
 
  /* .celebration-img{
@@ -152,13 +154,22 @@ main section{
    text-align: center;
    max-width: 850px;
    margin-left: 200px;
+   margin-top: -100px;
  }
  .sale h4{
    font-size: 24px;
+   color: #070211;
  }
  .sale h1{
    font-size: 72px;
-
+   margin-top: -20px;
+   color: #070211;
+   font-weight: bold;
+ }
+ .sale p{
+   color: #070211;
+   font-size: 20px;
+   max-width: 1000px;
  }
  .sale-img{
    background-image: url('../resources/Rectangle\ 2.png'), url('../resources/Rectangle\ 1.png');
@@ -175,17 +186,16 @@ main section{
  }
  #red-img{
    width: 280px;
-   height: 250px;
-   margin-top: 80px;
+   height: 280px;
+   margin-top: 70px;
  }
 
  .shopping{
-   margin-top: 500px;
+   margin-top: 450px;
  }
 
  .shopping-content h4{
    color: #FF0000;
-  margin-bottom: -2px;
    font-size: 24px;
  }
  /* .shopping-content h2{
